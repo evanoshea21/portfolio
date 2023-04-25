@@ -1,8 +1,50 @@
-.main {
-  height: 400px;
-  border: 2px solid var(--primColor);
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
-.main p {
-  font-size: 2rem;
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  /* background: white; */
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 90px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to right, var(--bgColor), rgba(0,0,0,0));
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to left, var(--bgColor), rgba(0,0,0,0));
+}
+
+.logos:hover .slide {
+  animation-duration: 5s;
+}
+
+.slide {
+  display: inline-block;
+  animation: 25s slide infinite linear;
+}
+
+.slide img {
+  height: 50px;
+  margin: 0 20px;
 }
