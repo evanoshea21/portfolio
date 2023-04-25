@@ -2,8 +2,12 @@ import React from 'react'
 import classes from '../styles/TechScroll.module.css';
 
 const TechScroll = () => {
+  const [speed, setSpeed] = React.useState('25s')
+
+
   return (
-    <div className={classes.logos}>
+    <div data-speed={speed} onMouseEnter={() => {setSpeed('5s')}} className={classes.logos}>
+
       <div className={classes.slide}>
         <img src='/reactLogo.png'></img>
         <img src='/nextLogo.png'></img>
@@ -25,6 +29,7 @@ const TechScroll = () => {
         <img src='/reactNativeLogo.png'></img>
         <img src='/sqlLogo.png'></img>
       </div>
+
     </div>
   )
 }

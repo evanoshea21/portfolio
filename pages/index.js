@@ -18,13 +18,13 @@ export default function Home() {
       <div className={classes.bigNav}>
         <h1 className={classes.logo}>evanoshea.dev</h1>
         <div className={classes.links}>
-          <Link className={classes.link}  href='www.google.com'>my work</Link>
-          <Link className={classes.link}  href='www.google.com'>contact</Link>
+          <Link className={classes.link}  href='http://www.google.com'>my work</Link>
+          <Link className={classes.link}  href='http://www.google.com'>contact</Link>
         </div>
       </div>
 
       <Hero />
-      <TechScroll />
+      {/* <TechScroll /> */}
       <AboutMe />
       <MyWork />
 
