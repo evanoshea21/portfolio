@@ -6,7 +6,7 @@ const TechScroll = () => {
 
 
   return (
-    <div data-speed={speed} onMouseEnter={() => {setSpeed('5s')}} className={classes.logos}>
+    <div onMouseEnter={() => {setSpeed('5s')}} className={classes.logos}>
 
       <div className={classes.slide}>
         <img src='/reactLogo.png'></img>
