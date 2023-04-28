@@ -24,7 +24,7 @@ export default function Home() {
       </div>
 
       <Hero />
-      {/* <TechScroll /> */}
+      <TechScroll />
       <AboutMe />
       <MyWork />
 
