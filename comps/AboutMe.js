@@ -5,8 +5,26 @@ import { useInViewport } from 'react-in-viewport';
 
 const AboutMe = () => {
 
-    const paraRef = React.useRef();
+  const paraRef = React.useRef();
   const paraVp = useInViewport(paraRef);
+
+  // const [paraY, setParaY] = React.useState('idk');
+  // React.useEffect(() => {
+  //   $(window).on('scroll', () => {
+  //     let win = $(window);
+  //     let topScreen = win.scrollTop();
+
+  //     //this checks when element is AT LEAST half way
+  //       // up the screen
+  //     if(topScreen + (win.height() / 2) > $('#aboutHeader').offset().top) {
+  //       console.log('NOW in middle..');
+  //     }
+  //   });
+  //   return () => {
+  //     $(window).off();
+  //   }
+  // });
+
 
   React.useEffect(() => {
     if(paraVp.inViewport) {
@@ -21,15 +39,6 @@ const AboutMe = () => {
     }
   },[paraVp.inViewport]);
 
-  // const hoverOn = (e) => {
-  //   $(e.target).css('transform', 'translateY(-20px)');
-  //   $(e.target).css('text-shadow', '0 0 2rem purple');
-  // };
-  // const hoverOff = (e) => {
-  //   $(e.target).css('transform', 'translateY(0px)');
-  //   $(e.target).css('text-shadow', 'none');
-  // };
-
 
   return (
     <div className={classes.main}>
@@ -38,7 +47,8 @@ const AboutMe = () => {
           <img className={classes.pic}  src='/face.png'></img>
         </div>
         <div className={classes.info}>
-          <h2>About me</h2>
+          <h2 id='aboutHeader'>About me</h2>
+          {/* <p>Para from bottom: {paraY}</p> */}
           <p className={classes.city} >Seattle, WA</p>
           <p id='para' ref={paraRef} className={classes.me} >
           My name is Evan, game-development summer camp... I love to program.
