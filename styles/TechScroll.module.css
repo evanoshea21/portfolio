@@ -13,7 +13,7 @@
   /* background: white; */
   white-space: nowrap;
   position: relative;
-  /* filter: drop-shadow(12px 12px 7px rgba(228, 3, 3, 0.917)); */
+
 }
 
 .logos:before,
@@ -24,7 +24,6 @@
   height: 100%;
   content: "";
   z-index: 2;
-  filter: none;
 }
 
 .logos:before {
@@ -41,6 +40,7 @@
   display: inline-block;
   animation: slide infinite linear;
   animation-duration: 35s;
+  transition: all 1s ease;
 }
 
 .slide img {
