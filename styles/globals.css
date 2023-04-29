@@ -2,7 +2,7 @@
 
 :root {
   --bgColor: rgb(2,2,2);
-  --primColor: rgb(143, 10, 143);
+  --primColor: #9910fb;
   --fontColor: #f2f2f2;
   --fontColorDark: rgb(157, 157, 157);
 
@@ -25,6 +25,30 @@ h1, h2, h3 {
   color: var(--fontColor);
 }
 
-body {
-  background-color: var(--bgColor);
+a:hover {
+  color: var(--primColor);
+  cursor: pointer;
 }
+
+body {
+  background: hsl(224, 32%, 12%);
+  background-image: conic-gradient(
+    from 0deg at 50% 50%,
+    blue,
+    purple,
+    purple,
+    blue
+  );
+  background-blend-mode: multiply;
+  /* min-block-size: 100dvh; */
+}
+
+
+#para {
+  opacity: 0;
+  text-shadow: none;
+  transition: all .9s ease;
+  transition-delay: .2s;
+
+}
+
