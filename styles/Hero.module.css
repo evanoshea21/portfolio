@@ -1,6 +1,36 @@
 .main {
-  height: 800px;
-  border: 2px solid var(--primColor);
+  /* border: 2px solid var(--primColor); */
+  display: flex;
+}
+.main > * {
+  flex: 1;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* transform: translateY(-20px); */
+}
+.btn {
+  width: fit-content;
+  background-color: purple;
+  margin: 20px 0;
+  padding: 15px 30px;
+  border-radius: 1.5rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  transition: all .2s ease;
+}
+
+.btn i {
+  /* border: 1px solid red; */
+  font-size: 1.9rem;
+  padding-right: 13px;
 }
 
 .main p {

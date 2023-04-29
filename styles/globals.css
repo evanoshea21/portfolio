@@ -31,7 +31,8 @@ a:hover {
 }
 
 body {
-  background: hsl(224, 32%, 12%);
+  /* border: 10px solid green; */
+  background: hsl(224, 31%, 12%);
   background-image: conic-gradient(
     from 0deg at 50% 50%,
     blue,
@@ -40,7 +41,7 @@ body {
     blue
   );
   background-blend-mode: multiply;
-  /* min-block-size: 100dvh; */
+  height: 100%;
 }
 
 
