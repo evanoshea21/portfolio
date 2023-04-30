@@ -48,11 +48,12 @@ const Hero = () => {
         </div>
       </div>
       <div className={classes.right}>
-        <div onClick={scrollTest}  className={classes.graphic}>
+        <img className={classes.svg}  src='dev.svg'></img>
+        {/* <div onClick={scrollTest}  className={classes.graphic}>
           <div className={`${classes.test} testDiv`}>
              ckj sdk csdk kc sdj cjsdk ckds jc sdkj cjds jkc dskj ckj dskj cjkdscjk dskjc jkds cjk dskj ckjd sjkc djks ckjd sjkc sdjkcjkds kjc sdkjckjds jkc dskj cjsdk c ds cksd cjks djk cjksd kjc sdk cds jc dsjk cjkds cjk ds
           </div>
-        </div>
+        </div> */}
       </div>
 
     </div>

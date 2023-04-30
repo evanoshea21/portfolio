@@ -39,6 +39,12 @@
 
 /* RIGHT SIDE */
 
+.svg {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
 .graphic {
   border: 1px solid red;
   height: 500px;
