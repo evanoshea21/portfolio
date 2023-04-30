@@ -2,33 +2,18 @@ import React from 'react'
 import classes from '../styles/AboutMe.module.css';
 import $ from 'jquery';
 import { useInViewport } from 'react-in-viewport';
+import { useRouter } from 'next/router';
 
 const AboutMe = () => {
 
+  const router = useRouter();
   const paraRef = React.useRef();
   const paraVp = useInViewport(paraRef);
-
-  // const [paraY, setParaY] = React.useState('idk');
-  // React.useEffect(() => {
-  //   $(window).on('scroll', () => {
-  //     let win = $(window);
-  //     let topScreen = win.scrollTop();
-
-  //     //this checks when element is AT LEAST half way
-  //       // up the screen
-  //     if(topScreen + (win.height() / 2) > $('#aboutHeader').offset().top) {
-  //       console.log('NOW in middle..');
-  //     }
-  //   });
-  //   return () => {
-  //     $(window).off();
-  //   }
-  // });
 
 
   React.useEffect(() => {
     if(paraVp.inViewport) {
-      console.log('IN VIEW');
+      // console.log('IN VIEW');
       $('#para').css('transform', 'translateY(-5px)');
       $('#para').css('opacity', '1');
       $('#para').css('text-shadow', '0 0 2rem purple');
@@ -51,19 +36,23 @@ const AboutMe = () => {
           {/* <p>Para from bottom: {paraY}</p> */}
           <p className={classes.city} >Seattle, WA</p>
           <p id='para' ref={paraRef} className={classes.me} >
-          My name is Evan, game-development summer camp... I love to program.
+          My interest for software was piqued when I attended a video-game dev summer camp when I was 13 years old. I instantly became aware and excited of the opportunities in software to bring an idea to the masses with very low startup cost.
           <br/>
           <br/>
-          I have experience... agile environments, leading a team of 4-6 engineers to hit deadlines, sprints, etc.
+          Ever since then, I've been tinkering with technologies (such as websockets and Google APIs) and building apps to help benefit the world.
           <br/>
           <br/>
-          More stuff about me. Feel free to reach out!
+          I have experience working in agile environments, leading a team of 4-6 engineers to hit deadlines, sprint-based programming, and setting up proper git workflow. I'm very focused on the synergy in teams to create a cohesive end product designed with the user in mind.
           </p>
           <div className={classes.links}>
-            <img className={classes.linkIcons}  src='/ghLogo.png'></img>
-            <img className={classes.linkIcons}  src='/liLogo.png'></img>
+            <a target="_blank" href='https://github.com/evanoshea21'><img className={classes.linkIcons}  src='/ghLogo.png'></img></a>
+            <a target="_blank" href='https://www.linkedin.com/in/evan-oshea/'><img className={classes.linkIcons}  src='/liLogo.png'></img></a>
+            <a href="mailto:evanoshea21@gmail.com">
             <img style={{height: '60px'}} className={classes.linkIcons}  src='/mailLogo.png'></img>
-            <span id='resumeBtn' className={classes.resume} >Resume</span>
+            </a>
+            <a className={classes.resume} target="_blank" href='https://drive.google.com/file/d/1u8_KIzFQfbATbdA6MEL0WeRiL9mE-qGC/view?usp=share_link'>
+            <span >Resume</span>
+            </a>
           </div>
         </div>
       </div>

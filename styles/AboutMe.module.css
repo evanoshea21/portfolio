@@ -60,6 +60,9 @@
   margin: 20px;
 
 }
+.links a {
+  text-decoration: none;
+}
 .linkIcons {
   height: 50px;
   transition: transform .4s ease;

@@ -5,9 +5,21 @@ import Hero from '../comps/Hero.js';
 import TechScroll from '../comps/TechScroll.js';
 import AboutMe from '../comps/AboutMe.js';
 import MyWork from '../comps/MyWork.js';
+import Test from '../comps/Test.js';
+import $ from 'jquery';
 
 
 export default function Home() {
+
+  const scrollToMyWork = () => {
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $("#myWork").offset().top - 30
+  }, 1000, 'swing');
+  };
+
+
+
+
   return (
     <>
       <Head>
@@ -18,16 +30,18 @@ export default function Home() {
       <div className={`${classes.bigNav} navbar`}>
         <h1 className={classes.logo}>evanoshea.dev</h1>
         <div className={classes.links}>
-          <Link className={classes.link}  href='http://www.google.com'>my work</Link>
-          <Link className={classes.link}  href='http://www.google.com'>contact</Link>
+          <div onClick={scrollToMyWork}  className={classes.link}>my work</div>
+          <div className={classes.link}>contact</div>
+          {/* <Link className={classes.link}  href='http://www.google.com'>contact</Link> */}
         </div>
       </div>
 
       <Hero />
       <TechScroll />
+      {/* <Test /> */}
       <AboutMe />
       <MyWork />
-
+      <div style={{height: '200px'}} className={classes.gap}></div>
     </>
   )
 }

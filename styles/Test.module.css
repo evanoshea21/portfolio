@@ -1,0 +1,21 @@
+.test {
+  max-width: 800px;
+  border: 1px solid purple;
+  margin: 100px auto;
+}
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+
+
+  position: relative;
+}
+.mask {
+  position: absolute;
+  inset: 1px;
+  z-index: 1;
+  background: linear-gradient(to right, black, black 50%, white);
+
+  /* mix-blend-mode: screen; */
+}
