@@ -108,7 +108,9 @@ const MyWork = () => {
         {projects.map((card, i) => {
           return (
             <div className={classes.cardSmall}>
-              {/* <img className={classes.smImg}  src={card.pic}></img> */}
+              <div className={classes.picSizeSm}>
+                <img className={classes.picSm}  src={card.pic}></img>
+              </div>
 
             </div>
 

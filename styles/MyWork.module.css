@@ -87,6 +87,11 @@
   display: none;
   max-width: 380px;
 }
-.smImg {
+.picSizeSm {
   height: 200px;
+}
+.picSm {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
