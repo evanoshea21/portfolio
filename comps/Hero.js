@@ -4,6 +4,8 @@ import $ from 'jquery';
 
 const Hero = () => {
 
+  const [inView, setInView] = React.useState(false);
+
   React.useEffect(() => {
     if(!window) return;
 
@@ -26,6 +28,15 @@ const Hero = () => {
     .css('text-shadow', 'none');;
   };
 
+  const scrollTest = () => {
+    if(!inView) {
+      $('.testDiv').css('transform', 'translateY(0%)');
+      setInView(prev => !prev);
+    } else {
+      $('.testDiv').css('transform', 'translateY(-100%)')
+      setInView(prev => !prev);
+    }
+  };
 
   return (
     <div id='heroDiv' className={classes.main}>
@@ -37,7 +48,11 @@ const Hero = () => {
         </div>
       </div>
       <div className={classes.right}>
-        I am a graphic
+        <div onClick={scrollTest}  className={classes.graphic}>
+          <div className={`${classes.test} testDiv`}>
+             ckj sdk csdk kc sdj cjsdk ckds jc sdkj cjds jkc dskj ckj dskj cjkdscjk dskjc jkds cjk dskj ckjd sjkc djks ckjd sjkc sdjkcjkds kjc sdkjckjds jkc dskj cjsdk c ds cksd cjks djk cjksd kjc sdk cds jc dsjk cjkds cjk ds
+          </div>
+        </div>
       </div>
 
     </div>

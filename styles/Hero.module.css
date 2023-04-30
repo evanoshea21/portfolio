@@ -36,3 +36,17 @@
 .main p {
   font-size: 2rem;
 }
+
+/* RIGHT SIDE */
+
+.graphic {
+  border: 1px solid red;
+  height: 500px;
+  overflow: hidden;
+}
+.test {
+  border: 5px solid green;
+  transform: translateY(-100%);
+
+  transition: all .4s ease-in-out;
+}
