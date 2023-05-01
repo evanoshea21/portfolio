@@ -20,7 +20,10 @@
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid rgba(128, 0, 128, 0.369);
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+}
+.smallNav h1 {
+  margin-bottom: 15px;
 }
 .smallNav .link {
   /* color: purple; */

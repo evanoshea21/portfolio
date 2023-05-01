@@ -47,3 +47,19 @@
   height: 50px;
   margin: 0 20px;
 }
+
+
+@media (max-width: 930px) {
+  .logos::before {
+    width: 40px;
+    background: linear-gradient(to right, #000027, rgba(0,0,0,0));
+  }
+
+  .logos::after {
+    width: 40px;
+    background: linear-gradient(to left, #000027, rgba(0,0,0,0));
+  }
+  .slide {
+    margin: 30px 0 0 0;
+  }
+}
