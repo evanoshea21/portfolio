@@ -55,7 +55,7 @@ export default function Home() {
       {/* <Test /> */}
       <AboutMe />
       <MyWork />
-      <div style={{height: '200px'}} className={classes.gap}></div>
+      <div className={classes.gap}>&lt; Thanks for Stopping By &gt;</div>
     </>
   )
 }

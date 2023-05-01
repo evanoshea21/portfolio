@@ -137,4 +137,7 @@
   .card {
     display: none;
   }
+  .title {
+    margin: 25px 0 5px 0;
+  }
 }

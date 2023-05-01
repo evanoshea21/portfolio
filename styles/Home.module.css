@@ -30,6 +30,14 @@
   color: var(--brightColor);
   /* color: var(--primColor); */
 }
+.gap {
+  /* background-color: red; */
+  height: 150px;
+  text-align: center;
+  padding: 30px;
+  font-size: 1.4rem;
+  color: var(--brightColor)
+}
 
 
 
