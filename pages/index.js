@@ -16,6 +16,11 @@ export default function Home() {
       scrollTop: $("#myWork").offset().top - 30
   }, 1000, 'swing');
   };
+  const scrollToContact = () => {
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $("#contactAbout").offset().top + $("#contactAbout").height()/2
+  }, 1000, 'swing');
+  };
 
 
 
@@ -31,8 +36,8 @@ export default function Home() {
       <div className={`${classes.bigNav} navbar`}>
         <h1 className={classes.logo}>evanoshea.dev</h1>
         <div className={classes.links}>
-          <div onClick={scrollToMyWork}  className={classes.link}>my work</div>
-          <div className={classes.link}>contact</div>
+          <div onClick={scrollToMyWork} className={classes.link}>my work</div>
+          <div className={classes.link} onClick={scrollToContact}>contact</div>
         </div>
       </div>
 
@@ -41,7 +46,7 @@ export default function Home() {
         <h1 className={classes.logo}>evanoshea.dev</h1>
         <div className={classes.links}>
           <div onClick={scrollToMyWork}  className={classes.link}>my work</div>
-          <div className={classes.link}>contact</div>
+          <div className={classes.link} onClick={scrollToContact}>contact</div>
         </div>
       </div>
 

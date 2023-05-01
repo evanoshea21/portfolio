@@ -26,7 +26,7 @@ const AboutMe = () => {
 
 
   return (
-    <div className={classes.main}>
+    <div id='contactAbout' className={classes.main}>
       <div className={classes.container}>
         <div className={classes.picBox}>
           <img className={classes.pic}  src='/face.png'></img>
