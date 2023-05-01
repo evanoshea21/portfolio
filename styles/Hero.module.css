@@ -82,3 +82,9 @@
 
   transition: all .4s ease-in-out;
 }
+
+@media (max-width: 930px) {
+  .btn *, .btn {
+    text-shadow: 0 0 20px white;
+  }
+}

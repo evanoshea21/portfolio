@@ -16,11 +16,11 @@ const AboutMe = () => {
       // console.log('IN VIEW');
       $('#para').css('transform', 'translateY(-5px)');
       $('#para').css('opacity', '1');
-      $('#para').css('text-shadow', '0 0 2rem purple');
+      $('#para').css('text-shadow', '0 0 .5rem var(--brightColor)');
     } else {
       $('#para').css('transform', 'translateY(0px)');
       $('#para').css('opacity', '0');
-      $('#para').css('text-shadow', 'none');
+      // $('#para').css('text-shadow', 'none');
     }
   },[paraVp.inViewport]);
 

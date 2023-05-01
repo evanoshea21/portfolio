@@ -3,6 +3,7 @@
 :root {
   --bgColor: rgb(2,2,2);
   --primColor: #9910fb;
+  --brightColor: rgb(221, 68, 221);
   --fontColor: #f2f2f2;
   --fontColorDark: rgb(157, 157, 157);
 
@@ -18,6 +19,7 @@ body, html, p {
 h1, h2, h3 {
   font-family: var(--hFont);
   color: var(--fontColor);
+  /* color: var(--brightColor); */
 }
 
 * {

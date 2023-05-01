@@ -27,7 +27,7 @@
 }
 .smallNav .link {
   /* color: purple; */
-  color: rgb(221, 68, 221);
+  color: var(--brightColor);
   /* color: var(--primColor); */
 }
 

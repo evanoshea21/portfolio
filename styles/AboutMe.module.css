@@ -81,6 +81,8 @@
   transform: translateY(-5px);
   filter: drop-shadow(1px 1px 37px #9910fb);
 }
+
+
 .resume:hover {
   transform: translateY(-5px);
   box-shadow: 1px 1px 30px purple;
@@ -92,15 +94,17 @@
     text-align: center;
   }
   .main p {
-    font-size: 1.1rem
+    font-size: 1rem;
+    padding: 0 10px;
   }
   .picBox {
     width: 80%;
     height: 80%;
   }
-  /* .info {
+  .info {
     padding-left: 0;
-  } */
+  }
+
   .links {
     display: flex;
     flex-wrap: wrap;
