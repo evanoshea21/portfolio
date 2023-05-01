@@ -14,3 +14,27 @@
   font-size: 1.4rem;
   cursor: pointer;
 }
+
+.smallNav {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 0, 128, 0.369);
+  padding-bottom: 30px;
+}
+.smallNav .link {
+  color: rgb(221, 68, 221);
+  /* color: var(--primColor); */
+}
+
+
+
+
+@media (max-width: 930px) {
+  .bigNav {
+    display: none;
+  }
+  .smallNav {
+    display: flex;
+  }
+}

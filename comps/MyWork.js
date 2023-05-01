@@ -73,7 +73,7 @@ const MyWork = () => {
         {/* BIG CARDS */}
         {projects.map((card, i) => {
           return (
-            <div onMouseEnter={() => hoverOn(i)} onMouseLeave={() => hoverOff(i)} className={ `${classes.card} cardHover card${i}`}>
+            <div key={`${i}bigCard`} onMouseEnter={() => hoverOn(i)} onMouseLeave={() => hoverOff(i)} className={ `${classes.card} cardHover card${i}`}>
               <div className={classes.picBox}>
                 <div style={{height: () => calcHeight(e)}} className={`${classes.picSize} picSize${i}`}>
                   <img className={classes.pic}  src={card.pic}></img>
@@ -107,11 +107,32 @@ const MyWork = () => {
         {/* SMALL CARD */}
         {projects.map((card, i) => {
           return (
-            <div className={classes.cardSmall}>
+            <div key={`${i}smallCard`} className={classes.cardSmall}>
               <div className={classes.picSizeSm}>
                 <img className={classes.picSm}  src={card.pic}></img>
               </div>
 
+              <div className={classes.infoSm}>
+
+
+              <h2 className={`${classes.projTitle} ${classes.titleSm}`} >{card.title}</h2>
+                <div className={`${classes.role} ${classes.roleSm}`}>{card.role}</div>
+                <div className={classes.desc}>
+                  {card.description.map((para, i) => {
+                    return <p key={`${i}para`}>{para}</p>
+                  })}
+                </div>
+                <div className={classes.linksSm}>
+                  {card.links.github && (
+                    <a target="_blank" href={card.links.github}>
+                    <img style={{height: '40px'}} className={classes2.linkIcons}  src='/ghLogo.png'></img></a>
+                  )}
+                  {card.links.web && (
+                    <a target="_blank" href={card.links.web}>
+                    <img style={{height: '40px'}} className={classes2.linkIcons}  src='/www.png'></img></a>
+                  )}
+                </div>
+                </div>
             </div>
 
           )

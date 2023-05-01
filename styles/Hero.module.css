@@ -1,9 +1,16 @@
 .main {
   /* border: 2px solid var(--primColor); */
   display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 0 45px;
+  justify-content: center;
+  /* align-items: center; */
 }
 .main > * {
   flex: 1;
+  flex-basis: 400px;
+
 }
 
 .left {
@@ -11,8 +18,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   /* transform: translateY(-20px); */
 }
+.right {
+  /* background-color: red; */
+}
+@media (max-width: 930px) {
+
+  .right {
+    max-height: 50%;
+  }
+  .main {
+    gap: 0;
+  }
+  .btnAlign {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
 .btn {
   width: fit-content;
   background-color: purple;
@@ -40,7 +66,7 @@
 /* RIGHT SIDE */
 
 .svg {
-  width: 90%;
+  width: 100%;
   height: 90%;
   object-fit: contain;
 }

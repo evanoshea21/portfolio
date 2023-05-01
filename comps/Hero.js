@@ -44,16 +44,14 @@ const Hero = () => {
         <div className={classes.title}>
           <h1>Hi, I'm Evan</h1>
           <p>I am a <span>software engineer</span></p>
-          <span onMouseEnter={hoverOn} onMouseLeave={hoverOff} id='scheduleBtn' className={classes.btn} ><i className="fa-regular fa-calendar-days"></i>Schedule Meeting</span>
-        </div>
+          <div className={classes.btnAlign}>
+            <div onMouseEnter={hoverOn} onMouseLeave={hoverOff} id='scheduleBtn' className={classes.btn} ><i className="fa-regular fa-calendar-days"></i>Schedule Meeting</div>
+          </div>
+
+          </div>
       </div>
       <div className={classes.right}>
         <img className={classes.svg}  src='dev.svg'></img>
-        {/* <div onClick={scrollTest}  className={classes.graphic}>
-          <div className={`${classes.test} testDiv`}>
-             ckj sdk csdk kc sdj cjsdk ckds jc sdkj cjds jkc dskj ckj dskj cjkdscjk dskjc jkds cjk dskj ckjd sjkc djks ckjd sjkc sdjkcjkds kjc sdkjckjds jkc dskj cjsdk c ds cksd cjks djk cjksd kjc sdk cds jc dsjk cjkds cjk ds
-          </div>
-        </div> */}
       </div>
 
     </div>
