@@ -14,6 +14,9 @@
   font-size: 1.4rem;
   cursor: pointer;
 }
+.link:hover {
+  color: var(--brightColor);
+}
 
 .smallNav {
   display: none;
