@@ -56,7 +56,7 @@ const AboutMe = () => {
             <a href="mailto:evanoshea21@gmail.com">
             <img style={{height: '60px'}} className={classes.linkIcons}  src='/mailLogo.png'></img>
             </a>
-            <a className={classes.resume} target="_blank" href='https://drive.google.com/file/d/1u8_KIzFQfbATbdA6MEL0WeRiL9mE-qGC/view?usp=share_link'>
+            <a className={classes.resume} target="_blank" href='https://drive.google.com/file/d/12V0pFJxNx9Wnz4lh9eJF_0TwTtZsm9-O/view?usp=sharing'>
             <span >Resume</span>
             </a>
           </div>
