@@ -42,13 +42,13 @@ const AboutMe = () => {
           {/* <p>Para from bottom: {paraY}</p> */}
           <p className={classes.city} >Seattle, WA</p>
           <p id='para' ref={paraRef} className={classes.me} >
-          My interest for software was piqued when I attended a video-game dev summer camp when I was 13 years old. I instantly became aware and excited of the opportunities in software to bring an idea to the masses with very low startup cost.
+          My interest for software was piqued when I attended a video-game dev summer camp when I was 13 years old. I instantly became aware and excited of the opportunities in software to bring an idea to the masses with very low startup costs.
           <br/>
           <br/>
-          Ever since then, I've been tinkering with technologies (such as websockets and Google APIs) and building apps to help benefit the world.
+          I love building full-stack apps that solve problems creatively with the fewest resources possible. My coding philosophy is to always optimize resource allocation by cutting down unnecessary processes.
           <br/>
           <br/>
-          I have experience working in agile environments, leading a team of 4-6 engineers to hit deadlines, sprint-based programming, and setting up proper git workflow. I'm very focused on the synergy in teams to create a cohesive end product designed with the user in mind.
+          I have experience collaborating and leading teams of 4-6 to execute in an efficient and timely manner. This involves sprint-based AGILE environements, setting up proper git workflow, and setting priorities to meet deadlines. I'm very focused on the synergy of a team to create a cohesive end product designed with the UX in mind.
           </p>
           <div className={classes.links}>
             <a target="_blank" href='https://github.com/evanoshea21'><img className={classes.linkIcons}  src='/ghLogo.png'></img></a>
