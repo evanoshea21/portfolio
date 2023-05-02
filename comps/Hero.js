@@ -1,8 +1,13 @@
 import React from 'react'
 import classes from '../styles/Hero.module.css';
 import $ from 'jquery';
+import { useRouter } from 'next/router';
+import { Typewriter } from 'react-simple-typewriter'
+
 
 const Hero = () => {
+
+  const router = useRouter();
 
   const [inView, setInView] = React.useState(false);
 
@@ -25,7 +30,10 @@ const Hero = () => {
   };
   const hoverOff = () => {
     $('#scheduleBtn').css('box-shadow', 'none')
-    .css('text-shadow', 'none');;
+    .css('text-shadow', 'none');
+  };
+  const openCalendly = () => {
+    router.push('https://calendly.com/your360guy/talk-with-evan-software');
   };
 
   const scrollTest = () => {
@@ -43,9 +51,20 @@ const Hero = () => {
       <div className={classes.left}>
         <div className={classes.title}>
           <h1>Hi, I'm Evan</h1>
-          <p>I am a <span>software engineer</span></p>
+
+          <p className={classes.typeBox} >I am a
+          <span className={classes.typing}>
+            <Typewriter words={['Fullstack', 'Creative', 'Backend']} loop={0} typeSpeed={80} deleteSpeed={50} />
+          </span>
+          <br/>
+          Developer
+          </p>
+
+
           <div className={classes.btnAlign}>
-            <div onMouseEnter={hoverOn} onMouseLeave={hoverOff} id='scheduleBtn' className={classes.btn} ><i className="fa-regular fa-calendar-days"></i>Schedule Meeting</div>
+            <a a target="_blank" href='https://calendly.com/your360guy/talk-with-evan-software' onMouseEnter={hoverOn} onMouseLeave={hoverOff} id='scheduleBtn' className={classes.btn} >
+              <i className="fa-regular fa-calendar-days"></i>Schedule Meeting
+              </a>
           </div>
 
           </div>

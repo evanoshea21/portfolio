@@ -61,6 +61,12 @@ body {
   text-shadow: none;
   transition: all .9s ease;
   transition-delay: .2s;
+}
 
+@media (max-width: 500px) {
+  #para {
+    transition: all .7s ease;
+    transition-delay: 0s;
+  }
 }
 
