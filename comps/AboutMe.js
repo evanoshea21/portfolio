@@ -48,7 +48,7 @@ const AboutMe = () => {
           I love building full-stack apps that solve problems creatively with the fewest resources possible. My coding philosophy is to always optimize resource allocation by cutting down unnecessary processes.
           <br/>
           <br/>
-          I have experience collaborating and leading teams of 4-6 to execute in an efficient and timely manner. This involves sprint-based AGILE environements, setting up proper git workflow, and setting priorities to meet deadlines. I'm very focused on the synergy of a team to create a cohesive end product designed with the UX in mind.
+          I have experience collaborating and leading teams of 4-6 to execute in an efficient and timely manner. This involves sprint-based AGILE environements, setting up proper git workflow, and setting priorities to meet deadlines. I'm very focused on the synergy of a team to create a cohesive end-product designed with the UX in mind.
           </p>
           <div className={classes.links}>
             <a target="_blank" href='https://github.com/evanoshea21'><img className={classes.linkIcons}  src='/ghLogo.png'></img></a>
