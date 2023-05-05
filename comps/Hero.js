@@ -54,7 +54,7 @@ const Hero = () => {
 
           <p className={classes.typeBox} >I am a
           <span className={classes.typing}>
-            <Typewriter words={['Fullstack', 'Creative', 'Backend']} loop={0} typeSpeed={80} deleteSpeed={50} />
+            <Typewriter words={['Fullstack', 'Backend', 'Creative']} loop={0} typeSpeed={80} deleteSpeed={50} />
           </span>
           <br/>
           Developer
