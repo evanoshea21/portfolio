@@ -64,7 +64,7 @@ const Hero = () => {
 
 
           <div className={classes.btnAlign}>
-            <a a target="_blank" href='https://calendly.com/your360guy/talk-with-evan-software' onMouseEnter={hoverOn} onMouseLeave={hoverOff} id='scheduleBtn' className={classes.btn} >
+            <a target="_blank" href='https://calendly.com/your360guy/talk-with-evan-software' onMouseEnter={hoverOn} onMouseLeave={hoverOff} id='scheduleBtn' className={classes.btn} >
               <i className="fa-regular fa-calendar-days"></i>Schedule Meeting
               </a>
           </div>
