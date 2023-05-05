@@ -47,6 +47,8 @@ const Hero = () => {
   };
 
   return (
+    <div className={classes.wrap}>
+
     <div id='heroDiv' className={classes.main}>
       <div className={classes.left}>
         <div className={classes.title}>
@@ -74,6 +76,8 @@ const Hero = () => {
       </div>
 
     </div>
+    </div>
+
   )
 }
 
