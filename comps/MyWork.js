@@ -5,14 +5,7 @@ import $ from 'jquery';
 import { useRouter } from 'next/router';
 
 const projects = [
-  {
-    title: 'Mobile App for TechXChange',
-    role: 'Lead Architect',
-    pic: '/techX2.png',
-    description: ['A React-Native mobile app that facilitates electronic device trades between users.','Introduced global state with React Context API to pre-load data and reduce redundant http requests.','Full Auth process with photo uploads implemented with Firebase and S3 buckets.'],
-    links: {github: 'https://github.com/TechXChange2/React-Native'}
-  },
-  {
+    {
     title: 'Question & Answers API for Elevated Apparel',
     role: 'Backend Engineer (team of 3)',
     pic: '/qaAPI.png',
@@ -33,6 +26,13 @@ const projects = [
     description: ['Simplistic yet modern e-commerce site designed with the user in mind.', 'Responsible for the Question and Answers section.', 'Utilized localStorage for caching, jquery scroll animations for infinite scrolling, and created a real-time search bar with React onChange hook.'],
     links: {github: 'https://github.com/atelier-front-end/elevated'}
   },
+  {
+    title: 'Mobile App for TechXChange',
+    role: 'Lead Architect',
+    pic: '/techX2.png',
+    description: ['A React-Native mobile app that facilitates electronic device trades between users.','Introduced global state with React Context API to pre-load data and reduce redundant http requests.','Full Auth process with photo uploads implemented with Firebase and S3 buckets.'],
+    links: {github: 'https://github.com/TechXChange2/React-Native'}
+  },
 
 ]
 
@@ -40,8 +40,8 @@ const MyWork = () => {
 
   const router = useRouter();
 
-  const hoverOn = (e) => {
-    $(`.cardHover:nth-child(${e + 1})`).css('transform', 'translateY(-4px)')
+  const hoverOn = (i) => {
+    $(`.cardHover:nth-child(${i + 1})`).css('transform', 'translateY(-4px)')
     .css('box-shadow', '0 0 50px purple')
   };
   const hoverOff = (e) => {
