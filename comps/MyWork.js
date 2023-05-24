@@ -64,7 +64,7 @@ const MyWork = () => {
       calcHeight()
     }, 0);
   },[]);
-
+//
   return (
     <div id='myWork' className={classes.main}>
       <h2 className={classes.title} >My Work</h2>
