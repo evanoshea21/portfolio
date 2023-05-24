@@ -8,7 +8,7 @@ const projects = [
     {
     title: 'Question & Answers API for Elevated Apparel',
     role: 'Backend Engineer (team of 3)',
-    pic: '/qaAPI.png',
+    pic: '/qaAPI.jpg',
     description: ['A Deployed Backend RESTful API ready for real-world traffic spikes of up to 10,000 clients/second.','Deployed NginX Load Balancer to AWS EC2 instance to increase throughput from 3200 clients/sec to over 10k clients/sec, dropping error rate from 12% to 0.0% and response time reduced from 16sec to 130ms.'],
     links: {github: 'https://github.com/evanoshea21/QA-API'}
   },
@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'Elevated Apparel',
     role: 'Full-stack Engineer (team of 4)',
-    pic: '/elevated.png',
+    pic: '/elevated.jpg',
     description: ['Simplistic yet modern e-commerce site designed with the user in mind.', 'Responsible for the Question and Answers section.', 'Utilized localStorage for caching, jquery scroll animations for infinite scrolling, and created a real-time search bar with React onChange hook.'],
     links: {github: 'https://github.com/atelier-front-end/elevated'}
   },
