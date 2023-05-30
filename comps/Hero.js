@@ -62,11 +62,11 @@ const Hero = () => {
             <TypeAnimation
             sequence={[
               'Fullstack', // Types 'One'
-              1500, // Waits 1s
+              1700, // Waits 1s
               'Backend', // Deletes 'One' and types 'Two'
-              1700, // Waits 2s
-              'Efficient',
-              1700
+              1800, // Waits 2s
+              'Frontend',
+              1800
             ]}
             // wrapper="span"
             cursor={true}
