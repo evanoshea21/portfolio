@@ -19,12 +19,6 @@
     gap: 0;
   }
 }
-.main > * {
-/* border: 2px solid var(--primColor); */
-  /* flex: 1;
-  flex-basis: 400px; */
-
-}
 
 .left {
   flex: 1;
