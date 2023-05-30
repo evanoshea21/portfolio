@@ -65,7 +65,7 @@ const Hero = () => {
               1700, // Waits 1s
               'Backend', // Deletes 'One' and types 'Two'
               1800, // Waits 2s
-              'Frontend',
+              'Creative',
               1800
             ]}
             // wrapper="span"
