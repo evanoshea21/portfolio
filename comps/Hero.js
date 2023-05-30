@@ -3,6 +3,7 @@ import classes from '../styles/Hero.module.css';
 import $ from 'jquery';
 import { useRouter } from 'next/router';
 import { Typewriter } from 'react-simple-typewriter'
+import { TypeAnimation } from 'react-type-animation';
 
 
 const Hero = () => {
@@ -56,7 +57,23 @@ const Hero = () => {
 
           <p className={classes.typeBox} >I am a
           <span className={classes.typing}>
-            <Typewriter words={['Fullstack', 'Backend', 'Creative']} loop={0} typeSpeed={80} deleteSpeed={50} />
+
+            {/* <Typewriter words={['Fullstack', 'Backend', 'Creative']} loop={0} typeSpeed={80} deleteSpeed={50} /> */}
+            <TypeAnimation
+            sequence={[
+              'Fullstack', // Types 'One'
+              1500, // Waits 1s
+              'Backend', // Deletes 'One' and types 'Two'
+              1700, // Waits 2s
+              'Efficient',
+              1700
+            ]}
+            // wrapper="span"
+            cursor={true}
+            repeat={Infinity}
+            // style={{ fontSize: '2em', display: 'inline-block' }}
+          />
+
           </span>
           <br/>
           Developer
