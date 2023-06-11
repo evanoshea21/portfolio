@@ -42,13 +42,16 @@ const AboutMe = () => {
           {/* <p>Para from bottom: {paraY}</p> */}
           <p className={classes.city} >Seattle, WA</p>
           <p id='para' ref={paraRef} className={classes.me} >
-          My interest for software was piqued when I attended a video-game dev summer camp when I was 13 years old. I instantly became aware and excited of the opportunities in software to bring an idea to the masses with very low startup costs.
+          Evan O'Shea is a fullstack developer residing near Seattle, WA. He has a background in Photoshop & Design in marketing.
           <br/>
           <br/>
-          I love building fullstack apps that solve problems creatively with the fewest resources possible. My coding philosophy is to always optimize resource allocation by cutting down unnecessary processes with methods like client-side caching, database indexing, and server load-balancing.
+          Evan loves building fullstack apps that solve real problems creatively and tastfully, with the fewest resources possible. His coding philosophy is to always optimize resource consumption via methods like client-side caching, database indexing, and server load-balancing.
           <br/>
           <br/>
-          I have experience collaborating in and leading teams of 4-6 to execute fullstack applications in an efficient manner that minimizes lines of code. This involves sprint-based SCRUM environments, setting up proper git workflows, and discerning priorities to meet deadlines. I'm very focused on the synergy of a team to create a cohesive end-product that is designed with the UX in mind.
+          Evan have experience collaborating in (and leading teams) of 4-6 to develop fullstack applications using technologies such as: React, Typescript, Next.js, MySQL, Node.js, AWS, Prisma ORM, and Photoshop.
+          <br/>
+          <br/>
+          This involves proper project planning, sprint-based SCRUM environments, setting up proper git workflows, and discerning priorities to meet deadlines.
           </p>
           <div className={classes.links}>
             <a target="_blank" href='https://github.com/evanoshea21'><img className={classes.linkIcons}  src='/ghLogo.png'></img></a>
