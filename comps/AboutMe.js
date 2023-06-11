@@ -42,13 +42,13 @@ const AboutMe = () => {
           {/* <p>Para from bottom: {paraY}</p> */}
           <p className={classes.city} >Seattle, WA</p>
           <p id='para' ref={paraRef} className={classes.me} >
-          Evan O'Shea is a fullstack developer residing near Seattle, WA. He has a background in Photoshop & Design in marketing.
+          Evan O'Shea is a fullstack developer residing near Seattle, WA. He has a background in Marketing & Design using Photoshop & Adobe CC.
           <br/>
           <br/>
-          Evan loves building fullstack apps that solve real problems creatively and tastfully, with the fewest resources possible. His coding philosophy is to always optimize resource consumption via methods like client-side caching, database indexing, and server load-balancing.
+          Evan loves building fullstack apps that solve real problems creatively and tastfully, using the fewest resources possible. His coding philosophy is to always optimize resource consumption via methods like client-side caching, database indexing, and server load-balancing.
           <br/>
           <br/>
-          Evan have experience collaborating in (and leading teams) of 4-6 to develop fullstack applications using technologies such as: React, Typescript, Next.js, MySQL, Node.js, AWS, Prisma ORM, and Photoshop.
+          Evan have experience collaborating in (and leading teams) of 4-6 developing fullstack applications using technologies such as: React, Typescript, Next.js, MySQL, Node.js, AWS, Prisma ORM, and Photoshop.
           <br/>
           <br/>
           This involves proper project planning, sprint-based SCRUM environments, setting up proper git workflows, and discerning priorities to meet deadlines.
