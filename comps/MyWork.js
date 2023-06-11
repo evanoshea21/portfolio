@@ -6,6 +6,13 @@ import { useRouter } from 'next/router';
 
 const projects = [
     {
+    title: 'Pinning Bees',
+    role: 'Fron-end and UI (Photoshop)',
+    pic: '/pinningBees.png',
+    description: ['A fully responsive, light-weight Front-end site designed with minimal dependencies (jQuery, TS). ', 'Fluid animations add an interactive feel, responsive design implemented tastefully, and a fully functioning contact form.', 'All completed in 3 days from start-to-finish, idea to deployment.'],
+    links: {github: 'https://github.com/evanoshea21/pinning-bees', web: 'http://pinningbees.com'}
+  },
+    {
     title: 'Question & Answers API for Elevated Apparel',
     role: 'Backend Engineer (team of 3)',
     pic: '/qaAPI.jpg',
