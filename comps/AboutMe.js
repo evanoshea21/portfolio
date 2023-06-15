@@ -48,10 +48,10 @@ const AboutMe = () => {
           Evan loves building fullstack apps that solve real problems creatively and tastefully, using the fewest resources possible. His coding philosophy is to always optimize resource consumption via methods like client-side caching, database indexing, and server load-balancing.
           <br/>
           <br/>
-          Evan have experience collaborating in (and leading teams) of 4-6 developing fullstack applications using technologies such as: React, Typescript, Next.js, MySQL, Node.js, AWS, Prisma ORM, and Photoshop.
+          Evan has experience collaborating in (and leading teams) of 4-6 developers using technologies such as: React, Typescript, Next.js, MySQL, Node.js, AWS, Prisma ORM, Git and Photoshop.
           <br/>
           <br/>
-          This involves proper project planning, sprint-based SCRUM environments, setting up proper git workflows, and discerning priorities to meet deadlines.
+          Working in sprint-based SCRUM environments, setting up bullet-proof git workflows, and by discerning priorities to meet deadlines, Evan has taken projects from idea to deployment smoothly with DRY, easy-to-read code.
           </p>
           <div className={classes.links}>
             <a target="_blank" href='https://github.com/evanoshea21'><img className={classes.linkIcons}  src='/ghLogo.png'></img></a>
