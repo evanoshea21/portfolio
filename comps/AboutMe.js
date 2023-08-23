@@ -60,10 +60,10 @@ const AboutMe = () => {
             MySQL, Node.js, AWS, Prisma ORM, Git and Photoshop.
             <br />
             <br />
-            Working in sprint-based SCRUM environments, setting up bullet-proof
-            git workflows, and by discerning priorities to meet deadlines, Evan
-            has taken projects from idea to deployment smoothly with DRY,
-            easy-to-read code.
+            From working in sprint-based SCRUM environments, setting up
+            bullet-proof git workflows, and by discerning priorities to hit
+            deadlines, Evan has taken projects from idea to deployment smoothly
+            with DRY, easy-to-read code.
           </p>
           <div className={classes.links}>
             <a target="_blank" href="https://github.com/evanoshea21">
