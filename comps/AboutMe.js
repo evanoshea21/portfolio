@@ -55,7 +55,7 @@ const AboutMe = () => {
             load-balancing.
             <br />
             <br />
-            Evan has experience collaborating in (and leading teams) of 4-6
+            Evan has experience collaborating in (and leading) teams of 4-6
             developers using technologies such as: React, Typescript, Next.js,
             MySQL, Node.js, AWS, Prisma ORM, Git and Photoshop.
             <br />
