@@ -68,6 +68,7 @@ const projects = [
 
 const MyWork = () => {
   const router = useRouter();
+  // const [heights, setHeights] = React.useState({});
 
   const hoverOn = (i) => {
     $(`.cardHover:nth-child(${i + 1})`)
@@ -80,19 +81,23 @@ const MyWork = () => {
       .css("box-shadow", "none");
   };
 
-  const calcHeight = () => {
-    $(".infoHeight").each(function (i) {
-      let height = $(this).height();
-      //now set height of picSize for picSize0
-      $(`.picSize${i}`).height(height);
-    });
-  };
+  // const calcHeight = () => {
+  //   let obj = {};
+  //   $(".infoHeight").each(function (i) {
+  //     let height = $(this).height();
+  //     console.log("height: ", height);
+  //     obj[i] = height;
+  //     //now set height of picSize for picSize0
+  //     // $(`.picSize${i}`).height(height);
+  //   });
+  //   setHeights(obj);
+  // };
 
-  React.useEffect(() => {
-    setTimeout(() => {
-      calcHeight();
-    }, 0);
-  }, []);
+  // React.useEffect(() => {
+  //   // setTimeout(() => {
+  //   calcHeight();
+  //   // }, 0);
+  // }, []);
   //
   return (
     <div id="myWork" className={classes.main}>
@@ -109,8 +114,8 @@ const MyWork = () => {
             >
               <div className={classes.picBox}>
                 <div
-                  style={{ height: () => calcHeight(e) }}
-                  className={`${classes.picSize} picSize${i}`}
+                  style={{ height: "100%" }}
+                  className={`${classes.picSize} ppicSize${i}`}
                 >
                   <img className={classes.pic} src={card.pic}></img>
                 </div>
