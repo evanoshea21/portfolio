@@ -30,19 +30,6 @@ const projects = [
     links: { github: "https://github.com/evanoshea21/QA-API" },
   },
   {
-    title: "Full-stack Membership app",
-    role: "Solo Engineer",
-    pic: "/seattleSpeakers.png",
-    description: [
-      "This is a membership site that tracks user achiemevents in the realm of public speaking. Admin controls including adding badges to user profiles upon completion of tasks set out by the group.",
-      "This is an accountability hub, with a community page offering communication to your fellow peer.",
-    ],
-    links: {
-      github: "https://github.com/evanoshea21/seattle-speakers",
-      web: "https://www.seattlespeakers.us",
-    },
-  },
-  {
     title: "Elevated Apparel",
     role: "Full-stack Engineer (team of 4)",
     pic: "/elevated.jpg",
