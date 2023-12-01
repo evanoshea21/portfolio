@@ -6,6 +6,17 @@ import { useRouter } from "next/router";
 
 const projects = [
   {
+    title: "E-commerce Site for Apparel Brand",
+    role: "Full stack Engineer",
+    pic: "/architectureDesign.jpg",
+    description: [
+      "Fully-functional e-commerce application with authentication, an admin dashboard to manage inventory, & saved payment profiles using Authorize.net payment platform",
+      "Accounted for numerous edge-cases in the checkout stage, including handling low inventory & failed transactions",
+      "Used OAuth in tandem with Authorize.net to securely fetch user’s payment methods in a PCI-compliant database",
+    ],
+    links: { github: "https://github.com/evanoshea21/Sauce-Apparel-Frontend" },
+  },
+  {
     title: "Pinning Bees",
     role: "Front-end and UI Design",
     pic: "/pinningBees.png",
