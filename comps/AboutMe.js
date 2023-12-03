@@ -66,8 +66,8 @@ const AboutMe = () => {
             <br />
             <br />
             If your team could benefit from a programmer who is meticulous about
-            proactively avoiding bugs, and one who is also passionate about
-            front-end and back-end optimization, then I'm your match.
+            proactively accounting for bugs, and one who is also passionate
+            about front-end and back-end optimization, then I'm your match.
             <br />
             <br />
             Thank you for viewing my profile. Reach out and let's chat about
