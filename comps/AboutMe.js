@@ -44,19 +44,20 @@ const AboutMe = () => {
           <p className={classes.city}>Seattle, WA</p>
           <p id="para" ref={paraRef} className={classes.me}>
             If I were to describe myself, I would say I'm a developer who's
-            obsessed about optimized, functional code. I like to build apps with
-            a meticulous game-plan in mind to strategize performance gains that
-            can be made from the get-go. I've found that planning also ensures a
-            smoother, more enjoyable programming experience. The more I prepare
-            for edge cases, design a sound architecture, and think through which
-            user stories must be developed, the more efficient I'm able to
-            create software. Falling into the pattern of reactively addressing
-            bugs as they surface is not my style of programing, and I aim to
-            bring that approach to any team I am a part of.
+            obsessed with performant & lightweight code. I like to strategically
+            design systems that are most optimized for performance from the
+            get-go by predicting bottle-necks that may be encountered down the
+            road. I've found that planning also ensures a smoother & more
+            enjoyable programming experience in a team-setting. The more time
+            spent proactively accounting for edge cases, designing a sound
+            architecture, and prioritizing which user stories must be developed
+            first, the more efficient I am able to build software. I am very
+            detail-oriented and I aim to bring that quality to every team I am a
+            part of.
             <br />
             <br />
             I build full-stack apps with the help of Typescript, React (with
-            Next.js), Node.js, AWS, and SQL databases with the help of Prisma.
+            Next.js), Node.js, AWS, and SQL databases in tandem with Prisma.
             <br />
             <br />
             Mastering this tech stack has afforded me the ability to create
