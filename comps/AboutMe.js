@@ -43,27 +43,37 @@ const AboutMe = () => {
           {/* <p>Para from bottom: {paraY}</p> */}
           <p className={classes.city}>Seattle, WA</p>
           <p id="para" ref={paraRef} className={classes.me}>
-            Evan O'Shea is a fullstack developer residing in Seattle, WA. He
-            also has a background in Marketing & Design using Photoshop & Adobe
-            CC.
+            If I were to describe myself, I would say I'm a developer who's
+            obsessed about optimized, functional code. I like to build apps with
+            a meticulous game-plan in mind to strategize performance gains that
+            can be made from the get-go. I've found that planning also ensures a
+            smoother, more enjoyable programming experience. The more I prepare
+            for edge cases, design a sound architecture, and think through which
+            user stories must be developed, the more efficient I'm able to
+            create software. Falling into the pattern of reactively addressing
+            bugs as they surface is not my style of programing, and I aim to
+            bring that approach to any team I am a part of.
             <br />
             <br />
-            Evan loves building fullstack apps that solve real problems
-            creatively and tastefully, using the fewest resources possible. His
-            coding philosophy is to always optimize resource consumption via
-            methods like client-side caching, database indexing, and server
-            load-balancing.
+            I build full-stack apps with the help of Typescript, React (with
+            Next.js), Node.js, AWS, and SQL databases with the help of Prisma.
             <br />
             <br />
-            Evan has experience collaborating in (and leading) teams of 4-6
-            developers using technologies such as: React, Typescript, Next.js,
-            MySQL, Node.js, AWS, Prisma ORM, Git and Photoshop.
+            Mastering this tech stack has afforded me the ability to create
+            lighting fast front-ends by server-side-rendering and caching data,
+            along with creating highly optimized back-ends through techniques
+            like load-balancing and database indexing.
             <br />
             <br />
-            From working in sprint-based SCRUM environments, setting up
-            bullet-proof git workflows, and by discerning priorities to hit
-            deadlines, Evan has taken projects from idea to deployment smoothly
-            with DRY, easy-to-read code.
+            If your team could benefit from a programmer who is meticulous about
+            proactively avoiding bugs, and one who is also passionate about
+            front-end and back-end optimization, then I'm your match.
+            <br />
+            <br />
+            Thank you for viewing my profile. Reach out and let's chat about
+            what you're looking for in a developer.
+            <br />
+            Cheers
           </p>
           <div className={classes.links}>
             <a target="_blank" href="https://github.com/evanoshea21">
