@@ -36,7 +36,7 @@ const AboutMe = () => {
     <div id="contactAbout" className={classes.main}>
       <div className={classes.container}>
         <div className={classes.picBox}>
-          <img id="profileimg" className={classes.pic} src="/face.png"></img>
+          <img id="profileimg" className={classes.pic} src="/profile.jpg"></img>
         </div>
         <div className={classes.info}>
           <h2 id="aboutHeader">About me</h2>
