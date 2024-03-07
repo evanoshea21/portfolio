@@ -93,7 +93,7 @@ const AboutMe = () => {
             <a
               className={classes.resume}
               target="_blank"
-              href="https://drive.google.com/file/d/19u3g50wT8XOv_ew_CYInOTTVZxQByAii/view?usp=sharing"
+              href="https://drive.google.com/file/d/167_jFD14C6IflIqqU7B3mbB0KbSg3XG8/view?usp=sharing"
             >
               <span>Resume</span>
             </a>
