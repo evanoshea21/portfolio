@@ -41,15 +41,19 @@
 }
 .gap {
   /* background-color: red; */
+  margin-top: 80px;
   height: 150px;
   text-align: center;
   padding: 30px;
   font-size: 1.4rem;
-  color: var(--brightColor)
+  color: var(--brightColor);
 }
-
-
-
+.gap > a {
+  color: var(--brightColor);
+}
+.gap > a:hover {
+  color: var(--primColor);
+}
 
 @media (max-width: 930px) {
   .bigNav {
