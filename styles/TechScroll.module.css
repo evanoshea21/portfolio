@@ -14,6 +14,11 @@
   white-space: nowrap;
   position: relative;
 }
+@media (min-width: 1680px) {
+  .logos {
+    display: none;
+  }
+}
 
 .logos:before,
 .logos:after {
