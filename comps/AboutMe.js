@@ -80,7 +80,7 @@ const AboutMe = () => {
             one who is passionate about front-end and back-end performance—then
             I’m the right fit for you.
             <br />
-            <br />I look forward to hearing from you 👍🏻
+            <br />I look forward to hearing from you 👍
           </p>
           <div className={classes.links}>
             <a target="_blank" href="https://github.com/evanoshea21">

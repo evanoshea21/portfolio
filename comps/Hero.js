@@ -50,7 +50,7 @@ const Hero = () => {
       <div id="heroDiv" className={classes.main}>
         <div className={classes.left}>
           <div className={classes.title}>
-            <h1>Hi, I'm Evan</h1>
+            <h1>Hi, I'm Evan 👋</h1>
 
             <p className={classes.typeBox}>
               I am a
