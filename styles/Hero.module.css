@@ -37,7 +37,6 @@
   /* background-color: red; */
 }
 @media (max-width: 749px) {
-
   .right {
     max-height: 50%;
   }
@@ -49,7 +48,6 @@
     justify-content: center;
   }
 }
-
 
 .btn {
   width: fit-content;
@@ -64,7 +62,7 @@
 
   text-decoration: none;
 
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 .btn:hover {
   color: white;
@@ -97,7 +95,7 @@
   border: 5px solid green;
   transform: translateY(-100%);
 
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .typeBox {
@@ -107,12 +105,13 @@
 .typing {
   position: absolute;
   white-space: nowrap;
-  left: 45%;
+  left: 36%;
   /* background-color: red; */
 }
 
 @media (max-width: 930px) {
-  .btn *, .btn {
+  .btn *,
+  .btn {
     text-shadow: 0 0 20px white;
   }
 }

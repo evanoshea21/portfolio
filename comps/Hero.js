@@ -58,12 +58,12 @@ const Hero = () => {
                 {/* <Typewriter words={['Fullstack', 'Backend', 'Creative']} loop={0} typeSpeed={80} deleteSpeed={50} /> */}
                 <TypeAnimation
                   sequence={[
-                    "Fullstack", // Types 'One'
-                    1700, // Waits 1s
-                    "Backend", // Deletes 'One' and types 'Two'
-                    1800, // Waits 2s
-                    "Creative",
-                    1800,
+                    "Strategic", // Types 'One'
+                    1600, // Waits 1s
+                    "Resourceful", // Deletes 'One' and types 'Two'
+                    1600, // Waits 2s
+                    "Versatile",
+                    1600,
                   ]}
                   // wrapper="span"
                   cursor={true}
@@ -72,7 +72,7 @@ const Hero = () => {
                 />
               </span>
               <br />
-              Developer
+              Fullstack Developer
             </p>
 
             <div className={classes.btnAlign}>

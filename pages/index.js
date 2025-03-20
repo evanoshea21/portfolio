@@ -1,5 +1,6 @@
 import Head from "next/head";
 import classes from "@/styles/Home.module.css";
+import classes2 from "../styles/AboutMe.module.css";
 import Link from "next/link";
 import Hero from "../comps/Hero.js";
 import TechScroll from "../comps/TechScroll.js";
@@ -42,9 +43,22 @@ export default function Home() {
             my work
           </div>
           <div className={classes.link}>
-            <Link href="/contact" className={classes.contactLink}>
+            <Link
+              href="mailto:evanoshea21@gmail.com"
+              className={classes.contactLink}
+            >
               contact
             </Link>
+          </div>
+          <div className={classes.link}>
+            <a
+              style={{ textDecoration: "none", fontSize: "1rem" }}
+              className={classes2.resume}
+              target="_blank"
+              href="https://drive.google.com/file/d/1LKyFvoZEEDUOBBkhSjjCA1kbrvJlI3s_/view?usp=sharing"
+            >
+              <span>Resume</span>
+            </a>
           </div>
         </div>
       </div>
@@ -70,7 +84,8 @@ export default function Home() {
       <AboutMe />
       <MyWork />
       <div className={classes.gap}>
-        &lt; Available for hire. <Link href="/contact">Conact Now</Link> &gt;
+        &lt; Available for hire.{" "}
+        <Link href="mailto:evanoshea21@gmail.com">Contact Now</Link> &gt;
       </div>
     </>
   );

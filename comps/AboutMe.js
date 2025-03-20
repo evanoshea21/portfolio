@@ -41,19 +41,28 @@ const AboutMe = () => {
         <div className={classes.info}>
           <h2 id="aboutHeader">About me</h2>
           {/* <p>Para from bottom: {paraY}</p> */}
-          <p className={classes.city}>Seattle, WA</p>
+          <p className={classes.city}>📍 Seattle, WA</p>
           <p id="para" ref={paraRef} className={classes.me}>
-            If I were to describe myself, I would say I'm a developer who's
-            obsessed with performant & lightweight code. I like to strategically
-            design systems that are most optimized for performance from the
-            get-go by predicting bottle-necks that may be encountered down the
-            road. I've found that planning also ensures a smoother & more
-            enjoyable programming experience in a team-setting. The more time
-            spent proactively accounting for edge cases, designing a sound
-            architecture, and prioritizing which user stories must be developed
-            first, the more efficient I am able to build software. I am very
-            detail-oriented and I aim to bring that quality to every team I am a
-            part of.
+            If I were to describe my disposition as a developer, I would say I'm
+            a developer who's obsessed with performant & lightweight code, and
+            one who prefers to design robust software by focusing my attention
+            on the design phase.
+            <br />
+            <br />
+            I like to strategically design systems that are optimized &
+            performant from the get-go by predicting bottle-necks that may be
+            arise in the future. I keep applications lightweight by being
+            resource-conscious, always asking, "is this necessary?" Light-weight
+            codebases are easier to read, maintain, and iterate upon.
+            <br />
+            <br />
+            While working in teams, extensive planning has become a vital part
+            of my process to ensure faster development times and a smoother
+            programming experience. Planning for me involves the following:
+            proactively accounting for noticeable edge cases, designing a sound
+            architecture to integrate all third-party tools into the tech-stack,
+            and deriving a plan of action that prioritizes features addressing
+            prominant user stories set by the PMs.
             <br />
             <br />
             I build full-stack apps with the help of Typescript, React (with
@@ -66,15 +75,12 @@ const AboutMe = () => {
             like load-balancing and database indexing.
             <br />
             <br />
-            If your team could benefit from a programmer who is meticulous about
-            proactively accounting for bugs, and one who is also passionate
-            about front-end and back-end optimization, then I'm your match.
+            If your team is looking for a Fullstack Developer who can deliver
+            robust software swiftly and smoothly through meticulous planning—and
+            one who is passionate about front-end and back-end performance—then
+            I’m the right fit for you.
             <br />
-            <br />
-            Thank you for viewing my profile. Reach out and let's chat about
-            what you're looking for in a developer.
-            <br />
-            Cheers
+            <br />I look forward to hearing from you 👍🏻
           </p>
           <div className={classes.links}>
             <a target="_blank" href="https://github.com/evanoshea21">
@@ -93,7 +99,7 @@ const AboutMe = () => {
             <a
               className={classes.resume}
               target="_blank"
-              href="https://drive.google.com/file/d/19T7PrFS8GdRRr3vhsMXW1bgMZR3KP2mz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1LKyFvoZEEDUOBBkhSjjCA1kbrvJlI3s_/view?usp=sharing"
             >
               <span>Resume</span>
             </a>
